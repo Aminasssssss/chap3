@@ -5,16 +5,18 @@ int main() {
     int n; 
 
     cin >> n;
-
-    for (long long i = 1; i * i <= n; i++) {
+    int cnt;
+    cnt=0;
+    for (int i = 1; i <= n; i++) {
         if (n % i == 0) {
-            cout<<i<< " ";
-            break;
+            cout<< i<< " ";
+          
         }
+
     }
 
    
-    cout << n << endl;
+
 
     return 0;
 }
